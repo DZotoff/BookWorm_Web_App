@@ -1,0 +1,44 @@
+/* Style for dropdown */
+.select-wrapper {
+    width: 80%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.select-wrapper select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none; /* Remove default arrow in some browsers */
+}
+
+/* Style for dropdown arrow */
+.select-wrapper::after {
+    content: '\25BC'; /* Unicode character for down arrow */
+    font-size: 16px;
+    color: var(--text-color);
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Style for dropdown on hover */
+.select-wrapper:hover select {
+    border-color: var(--button-hover-color);
+}
+
+/* Style for dropdown when active (clicked) */
+.select-wrapper select:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 5px var(--box-shadow-color);
+}
+
+/* Style for dropdown options */
+.select-wrapper select option {
+    padding: 10px;
+}

@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #80583c; /* A warm brown for emphasis */
+    --save-button-color: #3a7d44; /* Green for Save button */
+    --cancel-button-color: #a53a3a; /* Red for Cancel button */
+    --text-color: #333; /* A dark text color for readability */
+    --background-color: #f5f5f5; /* Light gray background */
+    --button-hover-color: #674227; /* Hover color for buttons */
+    --accent-color: #b35e29; /* An accent color for call-to-action elements */
+    --box-shadow-color: rgba(179, 94, 41, 0.5);
+} 

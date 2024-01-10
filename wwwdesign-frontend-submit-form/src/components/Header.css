@@ -1,0 +1,55 @@
+/* Style the header with the previous color palette and a black border at the bottom */
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .app-name {
+    font-size: 24px;
+    margin-right: auto; /* Push the logo and app name to the left */
+  }
+  
+  .button-group {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .header-button-group {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right:10px;
+  }
+
+  .arrow-button,
+  .profile-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0 5px; 
+  }
+  
+  .arrow-icon,
+  .profile-icon {
+    width: 24px;
+    height: 24px;
+  }

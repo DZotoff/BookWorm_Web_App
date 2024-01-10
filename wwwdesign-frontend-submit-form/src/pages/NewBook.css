@@ -1,0 +1,106 @@
+.content {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+}
+
+.form-group {
+    margin: 20px 0;
+    flex-direction: column;
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 80%;
+}
+  
+.button-group button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.save-button {
+    background-color: var(--save-button-color);
+    color: #fff;
+}
+  
+.cancel-button {
+    background-color: var(--cancel-button-color);
+    color: #fff;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    min-height: 100vh;
+}
+
+form{
+    width:80%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    width:80%
+}
+
+button {
+    padding: 10px 20px;
+    width:100%
+}
+
+.button-group button:first-child {
+    margin-right: 4%; 
+}
+
+.button-group button:last-child {
+    margin-left: 4%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width:80%;
+}
+  
+.header-text {
+    flex: 1;
+}
+  
+.header-button {
+    margin-left: 20px; 
+    flex: 0;
+}
+  
+.scan-barcode-button {
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s ease;
+    min-width: 150px;
+}
+  
+.scan-barcode-button:hover {
+    background-color: var(--cancel-button-color);
+}

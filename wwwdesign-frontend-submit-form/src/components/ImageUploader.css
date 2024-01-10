@@ -1,0 +1,37 @@
+body {
+  background-color: var(--background-color);
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+}
+
+.image-uploader button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.image-uploader {
+    margin-top:10px;
+    position: relative;
+}
+
+.image-uploader button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+svg {
+    margin-right: 20px;
+}
+
+.image-uploader input[type="file"] {
+    display: none;
+}

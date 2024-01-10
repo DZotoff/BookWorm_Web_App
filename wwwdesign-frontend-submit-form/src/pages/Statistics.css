@@ -1,0 +1,25 @@
+/* ReadingStatsPage.css */
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    max-height: 50vh; /* Set a maximum height to avoid excessive growth */
+  }
+  
+  .favorite-genres,
+  .average-pages {
+    flex: 1 1 50%; /* flex-grow, flex-shrink, and initial width */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .favorite-genres canvas {
+    flex: 1; /* Adjust the canvas flex value */
+    height: 100%; /* Make the canvas take up 100% of its container's height */
+  }
+  
+.content {
+    margin-top: 60px;
+    padding: 20px;
+}
